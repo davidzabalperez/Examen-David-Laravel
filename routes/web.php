@@ -1,3 +1,5 @@
 <?php
 
 Route::view('/', "enunciado");
+Route::get('/cliente',['as'=>'cliente.index',
+	'uses'=>'ClienteController@show']);

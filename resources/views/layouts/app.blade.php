@@ -14,7 +14,7 @@
 
           <div class="links">
 						<a href="/">Hoteles de 1ª</a>
-						<a href="#">Clientes</a>
+						<a href="/cliente">Clientes</a>
 						<a href="#">Nuevo Cliente</a>
 						<a href="#">Reserva</a>
           </div>

@@ -14,6 +14,17 @@
       <th>Apellido</th>
       <th>Telefono</th>
     </tr>
+    
+      @foreach($clientes as $cliente)
+      <tr>
+      <td>{{$cliente->id}}</td>
+      <td>{{$cliente->nif}}</td>
+      <td>{{$cliente->nombre}}</td>
+      <td>{{$cliente->apellido}}</td>
+      <td>{{$cliente->telefono}}</td>
+      </tr>
+      @endforeach
+    
 
 
   </table>
