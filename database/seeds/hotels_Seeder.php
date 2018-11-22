@@ -15,8 +15,8 @@ class hotels_Seeder extends Seeder
     	DB::table('hotels')->insert([
                 'nombre' => str_random(10),
                 'direccion' => 'C/'.str_random(10),
-                'categoria' => random_int(3,5),
-                'completo' => false,
+                'categoria' => random_int(1,3),
+                'completo' => true,
                 'antiguedad' => date('2010-11-10')
             ]);	
     	}
