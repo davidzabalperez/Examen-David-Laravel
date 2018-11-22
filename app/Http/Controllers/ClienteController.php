@@ -14,4 +14,14 @@ class ClienteController extends Controller
             	'clientes'=>$clientes
             ]);
         }
+    /*public function add(Request $request)
+    {
+    	DB::table('clientes')->insert(
+    
+    	$nombre = $request->Input('nif');
+    	$nombre = $request->Input('nombre');
+    	$nombre = $request->Input('apellido');
+    	$nombre = $request->Input('telefono');
+    	)
+    }*/
 }

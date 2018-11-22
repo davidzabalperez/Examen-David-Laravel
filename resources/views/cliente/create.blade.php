@@ -5,10 +5,10 @@
 @section('content')
 
   <h4>Cliente nuevo</h4>
-  <form action="" method="post">
+  <form action="/createcliente" method="post">
     @csrf
     NIF:<br>
-    <input type="text" name="nif" value="23452345"><br><br>
+    <input type="text" name="nif" value="123456789A"><br><br>
     Nombre:<br>
     <input type="text" name="nombre" value="Miren"><br><br>
     Apellido:<br>
